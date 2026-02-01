@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Bowl Locations 2026-2029</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 5px solid #667eea;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+        }
+
+        .year {
+            font-size: 0.9em;
+            color: #667eea;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .city {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .state {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .stadium {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .stadium-label {
+            font-size: 0.85em;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+        }
+
+        .stadium-name {
+            font-size: 1.1em;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .date {
+            display: flex;
+            align-items: center;
+            color: #764ba2;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        .date::before {
+            content: "📅";
+            margin-right: 8px;
+            font-size: 1.2em;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            opacity: 0.8;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .grid {
+                gap: 20px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .city {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏈 Super Bowl Locations</h1>
+            <p class="subtitle">2026 - 2029</p>
+        </header>
+
+        <div class="grid">
+            <div class="card">
+                <div class="year">Super Bowl LX</div>
+                <div class="city">Las Vegas</div>
+                <div class="state">Nevada</div>
+                <div class="stadium">
+                    <div class="stadium-label">Stadium</div>
+                    <div class="stadium-name">Allegiant Stadium</div>
+                </div>
+                <div class="date">February 8, 2026</div>
+            </div>
+
+            <div class="card">
+                <div class="year">Super Bowl LXI</div>
+                <div class="city">New Orleans</div>
+                <div class="state">Louisiana</div>
+                <div class="stadium">
+                    <div class="stadium-label">Stadium</div>
+                    <div class="stadium-name">Caesars Superdome</div>
+                </div>
+                <div class="date">February 7, 2027</div>
+            </div>
+
+            <div class="card">
+                <div class="year">Super Bowl LXII</div>
+                <div class="city">Indianapolis</div>
+                <div class="state">Indiana</div>
+                <div class="stadium">
+                    <div class="stadium-label">Stadium</div>
+                    <div class="stadium-name">Lucas Oil Stadium</div>
+                </div>
+                <div class="date">February 12, 2028</div>
+            </div>
+
+            <div class="card">
+                <div class="year">Super Bowl LXIII</div>
+                <div class="city">Miami</div>
+                <div class="state">Florida</div>
+                <div class="stadium">
+                    <div class="stadium-label">Stadium</div>
+                    <div class="stadium-name">Hard Rock Stadium</div>
+                </div>
+                <div class="date">February 11, 2029</div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Super Bowl Locations Information | Updated January 2026</p>
+        </footer>
+    </div>
+</body>
+</html>
