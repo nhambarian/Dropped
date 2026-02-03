@@ -1,1 +1,71 @@
-This is a test
+Channel:  FNC
+Date: 1/30/26
+Time (ET): 1100
+Program: THE FAULKNER FOCUS
+Break Dropped: Dropped Break 3 (LOCAL)
+Topic: DOJ ANNOUNCING RELEASE OF EPSTEIN FILES
+Director/Producer: LISA / RACHEL
+Notes: n/a (edited)
+
+Channel:  FNC
+Date: 1/30/26
+Time (ET): 1200
+Program: OUTNUMBERED
+Break Dropped: Dropped Break 2
+Topic: TRUMP TAKING QUESTIONS
+Director/Producer: ROBERT / TRINA
+Notes: n/a
+
+Channel:  FNC
+Date: 1/30/26
+Time (ET): 1200
+Program: OUTNUMBERED
+Break Dropped: Dropped Break 3
+Topic: TRUMP TAKING QUESTIONS
+Director/Producer: ROBERT / TRINA
+Notes: n/a
+
+Channel:  FNC
+Date: 1/30/26
+Time (ET): 1200
+Program: OUTNUMBERED
+Break Dropped: Dropped Break 4
+Topic: TRUMP TAKING QUESTIONS
+Director/Producer: ROBERT / TRINA
+Notes: n/a
+
+Channel:  FNC
+Date: 1/30/26
+Time (ET): 1100
+Program: THE FAULKNER FOCUS
+Break Dropped: Dropped Break 3 (LOCAL)
+Topic: DOJ ANNOUNCING RELEASE OF EPSTEIN FILES
+Director/Producer: LISA / RACHEL
+Notes: n/a (edited)
+
+Channel:  FNC
+Date: 1/30/26
+Time (ET): 1200
+Program: OUTNUMBERED
+Break Dropped: Dropped Break 2
+Topic: TRUMP TAKING QUESTIONS
+Director/Producer: ROBERT / TRINA
+Notes: n/a
+
+Channel:  FNC
+Date: 1/30/26
+Time (ET): 1200
+Program: OUTNUMBERED
+Break Dropped: Dropped Break 3
+Topic: TRUMP TAKING QUESTIONS
+Director/Producer: ROBERT / TRINA
+Notes: n/a
+
+Channel:  FNC
+Date: 1/30/26
+Time (ET): 1200
+Program: OUTNUMBERED
+Break Dropped: Dropped Break 4
+Topic: TRUMP TAKING QUESTIONS
+Director/Producer: ROBERT / TRINA
+Notes: n/a
