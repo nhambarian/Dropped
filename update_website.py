@@ -47,6 +47,8 @@ def parse_csv(file_path):
                 entry['director'] = row['Director'].strip()
             if row.get('Producer'):
                 entry['producer'] = row['Producer'].strip()
+            if row.get('Presser'):
+                entry['presser'] = row['Presser'].strip()
             
             # Only add if we have the essential fields
             if 'date' in entry and 'program' in entry and 'breakDropped' in entry:
@@ -73,7 +75,8 @@ def generate_javascript_data(entries):
         js_lines.append(f"                program: \"{entry.get('program', 'N/A')}\",")
         js_lines.append(f"                channel: \"{entry.get('channel', 'N/A')}\",")
         js_lines.append(f"                breakDropped: \"{entry.get('breakDropped', 'N/A')}\",")
-        js_lines.append(f"                topic: \"{entry.get('topic', 'N/A')}\"")
+        js_lines.append(f"                topic: \"{entry.get('topic', 'N/A')}\",")
+        js_lines.append(f"                presser: \"{entry.get('presser', 'N/A')}\"")
         
         if i < len(entries) - 1:
             js_lines.append("            },")
@@ -103,6 +106,7 @@ def generate_table_rows(entries):
                         <td>{entry.get('channel', 'N/A')}</td>
                         <td><span class="break-badge">{entry.get('breakDropped', 'N/A')}</span></td>
                         <td>{entry.get('topic', 'N/A')}</td>
+                        <td>{entry.get('presser', 'N/A')}</td>
                     </tr>"""
         rows.append(row)
     
